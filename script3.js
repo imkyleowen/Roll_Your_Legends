@@ -17,7 +17,7 @@ function spinSlot() {
        'Runes/PhaseRush.png',
        'Runes/PressTheAttack.png',
        'Runes/SummonAery.png',
-       'Runes/UnsealedSpellBook.png',
+       'Runes/UnsealedSpellbook.png',
        'Runes/VeteranAftershock.png'
 
     ];
