@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  margin: none;
+  padding: 20px;
+}
+
+header {
+background-color: #0c0c10;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+header img {
+  height: 150px;
+}
+
+.parallax {
+  background-image: url(https://lol-stats.net/uploads/X0geMjIXBEZOVO5U7CvrqJW3shfN1NaI57cmgyxZ.jpeg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+  color: black;
+}
+
+.slot-machine {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  justify-content: center;
+  margin: 30px auto;
+  width: max-content;
+}
+
+.slots {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #f39c12;
+  border-radius: 10px;
+  background-color: #333;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.slots img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e74c3c;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #c0392b;
+}
+
+.slot-machine1 {
+
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: max-content;
+}
+
+.slot-machine2 {
+
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: max-content;
+}
+
+.slot-machine3 {
+
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: max-content;
+}
+
+footer {
+  background-color: #0c0c10;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100px;
+}
+
+footer img {
+  height: 100px;
+  float: left;
+}
+
+
